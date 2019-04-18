@@ -1,0 +1,30 @@
+{
+  "name": "vscode-snippets",
+  "displayName": "Aru Snips",
+  "version": "0.0.1",
+  "description": "personal snippets",
+  "author": {"name": "Marcus Albertsson"},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arubertoson/vscode-snippets"
+  },
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/python.json"
+      },
+      {
+        "language": "asciidoc",
+        "path": "./snippets/asciidoc.json"
+      }
+    ]
+  }
+}
